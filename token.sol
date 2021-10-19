@@ -31,7 +31,7 @@ contract SafeMath {
 }
 
 
-contract BCCoin is ERC20Interface, SafeMath {
+contract Teste is ERC20Interface, SafeMath {
     string public name;
     string public symbol;
     uint8 public decimals; 
@@ -47,7 +47,7 @@ contract BCCoin is ERC20Interface, SafeMath {
      * Initializes contract with initial supply tokens to the creator of the contract
      */
     constructor() public {
-        name = "Token teste";
+        name = "Teste";
         symbol = "ttt";
         decimals = 18;
         _totalSupply = 10000000000000000000000000;
