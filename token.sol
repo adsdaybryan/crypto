@@ -1,7 +1,3 @@
-/**
- *Submitted for verification at BscScan.com on 2021-08-14
-*/
-
 pragma solidity ^0.5.0;
 
 // ----------------------------------------------------------------------------
@@ -51,8 +47,8 @@ contract BCCoin is ERC20Interface, SafeMath {
      * Initializes contract with initial supply tokens to the creator of the contract
      */
     constructor() public {
-        name = "BC Coin";
-        symbol = "BCC";
+        name = "Token teste";
+        symbol = "ttt";
         decimals = 18;
         _totalSupply = 10000000000000000000000000;
 
